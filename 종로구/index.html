@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>종로구 헌옷수거함 위치 | 내 주변 수거함 지도</title>
+  <meta name="description" content="종로구 헌옷수거함 244곳의 위치를 지도에서 확인하세요. 주소, 상세위치 정보를 제공합니다.">
+  <meta property="og:title" content="종로구 헌옷수거함 위치">
+  <meta property="og:description" content="종로구 의류수거함 244곳 위치 정보">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://recycle.hohn.kr/종로구/">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <style>
+    :root{--brand-black:#111;--brand-white:#FFF;--brand-gray:#F5F5F7;--glass-border:rgba(255,255,255,0.5);--glass-bg:rgba(255,255,255,0.7);--glass-shadow:0 4px 20px rgba(0,0,0,0.05);--text-main:#111;--text-sub:#666;--text-muted:#888;--container-width:1200px}
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:'Pretendard',-apple-system,BlinkMacSystemFont,sans-serif;color:var(--brand-black);background:var(--brand-white);line-height:1.6;-webkit-font-smoothing:antialiased}
+    h1,h2,h3{font-weight:700;letter-spacing:-0.02em;margin-bottom:1rem}
+    .glass-card{background:var(--glass-bg);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid var(--glass-border);border-radius:16px;box-shadow:var(--glass-shadow)}
+    .content-wrapper{max-width:var(--container-width);margin:0 auto;padding:0 20px;width:100%}
+    .text-center{text-align:center}.text-muted{color:var(--text-muted)}
+    .section{padding:80px 0}.section--gray{background:var(--brand-gray)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 28px;background:var(--brand-black);color:var(--brand-white);border:1px solid var(--brand-black);border-radius:8px;font-family:'Pretendard',sans-serif;font-weight:600;font-size:16px;text-decoration:none;cursor:pointer;transition:all .2s cubic-bezier(.25,.8,.25,1)}
+    .btn:hover{background:#333;transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,0,0,.1)}
+    .site-header{padding:16px 0;border-bottom:1px solid rgba(0,0,0,0.05);background:rgba(255,255,255,0.8);backdrop-filter:blur(12px);position:sticky;top:0;z-index:50}
+    .site-header .content-wrapper{display:flex;align-items:center;justify-content:space-between}
+    .site-header__logo{font-size:20px;font-weight:800;color:var(--brand-black);text-decoration:none;letter-spacing:-0.03em}
+    .site-header__nav a{font-size:14px;color:var(--text-sub);text-decoration:none;margin-left:20px}
+    .site-header__nav a:hover{color:var(--brand-black)}
+    .map-hero{padding:60px 0 40px;background:var(--brand-gray)}
+    .map-hero__title{font-size:2rem;margin-bottom:.5rem}
+    .map-hero__count{font-size:1.25rem;color:var(--text-sub);margin-bottom:.5rem}
+    .map-hero__count strong{color:var(--brand-black)}
+    .map-hero__desc{font-size:1rem;max-width:500px;margin:0 auto}
+    .map-hero__desc strong{color:var(--brand-black);font-weight:600}
+    .map-section{padding:40px 0}
+    .bin-map__container{width:100%;height:350px;border-radius:16px;overflow:hidden;border:1px solid rgba(0,0,0,0.08);background:var(--brand-gray)}
+    .comparison-section{padding:60px 0}
+    .comparison{text-align:center}
+    .comparison__heading{font-size:1.5rem;margin-bottom:.5rem}
+    .comparison__subtext{color:#666;margin-bottom:2rem}
+    .comparison__table{display:grid;grid-template-columns:1fr;gap:16px;margin-bottom:2rem}
+    .comparison__column{padding:24px 20px;text-align:left}
+    .comparison__column--bin{opacity:.7}
+    .comparison__column--hohn{border:2px solid #111}
+    .comparison__column-header{display:flex;align-items:center;gap:8px;margin-bottom:16px}
+    .comparison__badge{padding:2px 10px;background:#111;color:#fff;font-size:12px;font-weight:600;border-radius:100px}
+    .comparison__label{font-size:18px;font-weight:700}
+    .comparison__list{list-style:none}
+    .comparison__item{display:flex;justify-content:space-between;align-items:center;padding:12px 0;border-bottom:1px solid rgba(0,0,0,0.06)}
+    .comparison__item:last-child{border-bottom:none}
+    .comparison__item-label{font-size:14px;color:#888}
+    .comparison__item-value{font-size:15px;font-weight:500;color:#333;text-align:right}
+    .comparison__item-value--highlight{color:#111;font-weight:700}
+    .comparison__cta{text-align:center}
+    .comparison__cta-btn{width:100%;max-width:320px;font-size:17px;padding:16px 32px}
+    .comparison__cta-note{margin-top:12px;font-size:14px;color:#888}
+    .bin-list__heading{font-size:1.5rem;margin-bottom:.5rem}
+    .bin-list__desc{margin-bottom:1.5rem}
+    .bin-list__toggle{display:inline-flex;align-items:center;padding:12px 24px;background:var(--brand-white);color:var(--brand-black);border:1px solid #E5E5E5;border-radius:8px;font-size:15px;font-weight:500;cursor:pointer;font-family:'Pretendard',sans-serif}
+    .bin-list__toggle:hover{background:var(--brand-gray)}
+    .bin-list__content{margin-top:1.5rem}
+    .bin-list__items{list-style:none;display:grid;grid-template-columns:1fr;gap:0}
+    .bin-list__item{display:flex;align-items:baseline;gap:12px;padding:12px 0;border-bottom:1px solid rgba(0,0,0,0.06);font-size:14px}
+    .bin-list__item-num{flex-shrink:0;width:28px;text-align:right;color:var(--text-muted);font-size:13px}
+    .bin-list__item-detail{color:var(--text-sub);font-size:13px}
+    .bin-list__item-detail::before{content:"· "}
+    .cta-section{background:linear-gradient(180deg,rgba(245,245,247,0.6),rgba(255,255,255,0.9))}
+    .cta-card{text-align:center;padding:2.5rem}.cta-card p{margin-bottom:1.5rem}
+    .adsense-banner{padding:24px 0}
+    .sticky-bottom-cta{position:fixed;bottom:20px;left:20px;right:20px;z-index:100;box-shadow:0 10px 30px rgba(0,0,0,.2);display:flex;padding:12px;background:rgba(255,255,255,.95);border-radius:16px;border:1px solid rgba(0,0,0,.08);animation:slideUp .5s ease-out forwards}
+    .sticky-bottom-cta .btn{flex:1}
+    @keyframes slideUp{from{transform:translateY(100px);opacity:0}to{transform:translateY(0);opacity:1}}
+    .site-footer{padding:40px 0;background:var(--brand-gray);text-align:center;font-size:13px;color:var(--text-muted)}
+    @media(min-width:768px){.map-hero{padding:80px 0 60px}.map-hero__title{font-size:2.5rem}.bin-map__container{height:500px}.comparison__heading{font-size:2rem}.comparison__table{grid-template-columns:1fr 1fr;gap:24px}.comparison__column{padding:32px 28px}.comparison__cta-btn{width:auto}.bin-list__items{grid-template-columns:1fr 1fr;gap:0 40px}}
+    @media(min-width:769px){.sticky-bottom-cta{display:none!important}}
+    @media(max-width:768px){.section{padding:60px 0}h1{font-size:2rem}h2{font-size:1.5rem}}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="content-wrapper">
+      <a href="https://hohn.kr" class="site-header__logo">헌옷훈남</a>
+      <nav class="site-header__nav">
+        <a href="/">수거함 지도</a>
+        <a href="https://hohn.kr" target="_blank">방문수거 신청</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section map-hero">
+      <div class="content-wrapper text-center">
+        <h1 class="map-hero__title">종로구 헌옷수거함 위치</h1>
+        <p class="map-hero__count">총 <strong>244개</strong> 수거함</p>
+        <p class="map-hero__desc text-muted">종로구 헌옷수거함 위치를 지도에서 확인하세요. 이 지역은 <strong>헌옷훈남 방문수거</strong>가 가능합니다.</p>
+      </div>
+    </section>
+
+    <section class="section map-section">
+      <div class="content-wrapper">
+        <div class="bin-map__container" id="map"></div>
+      </div>
+    </section>
+
+
+    <section class="section comparison-section">
+      <div class="content-wrapper">
+        <div class="comparison">
+          <h2 class="comparison__heading">수거함에 직접 가져가시겠어요?</h2>
+          <p class="comparison__subtext">종로구에서 더 나은 방법이 있습니다.</p>
+          <div class="comparison__table">
+            <div class="comparison__column comparison__column--bin glass-card">
+              <div class="comparison__column-header"><span class="comparison__label">헌옷수거함</span></div>
+              <ul class="comparison__list">
+                <li class="comparison__item"><span class="comparison__item-label">보상</span><span class="comparison__item-value">0원</span></li>
+                <li class="comparison__item"><span class="comparison__item-label">방법</span><span class="comparison__item-value">직접 가져감</span></li>
+                <li class="comparison__item"><span class="comparison__item-label">시간</span><span class="comparison__item-value">아무때나</span></li>
+                <li class="comparison__item"><span class="comparison__item-label">상태확인</span><span class="comparison__item-value">불가</span></li>
+              </ul>
+            </div>
+            <div class="comparison__column comparison__column--hohn glass-card">
+              <div class="comparison__column-header"><span class="comparison__badge">추천</span><span class="comparison__label">헌옷훈남 방문수거</span></div>
+              <ul class="comparison__list">
+                <li class="comparison__item"><span class="comparison__item-label">보상</span><span class="comparison__item-value comparison__item-value--highlight">kg당 400원~</span></li>
+                <li class="comparison__item"><span class="comparison__item-label">방법</span><span class="comparison__item-value comparison__item-value--highlight">문앞 수거</span></li>
+                <li class="comparison__item"><span class="comparison__item-label">시간</span><span class="comparison__item-value comparison__item-value--highlight">내일 바로</span></li>
+                <li class="comparison__item"><span class="comparison__item-label">상태확인</span><span class="comparison__item-value comparison__item-value--highlight">수거당일 로켓 정산</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="comparison__cta">
+            <a href="https://hohn.kr/?utm_source=bin_map&utm_medium=organic&utm_campaign=map_page&utm_content=jongno" class="btn comparison__cta-btn" target="_blank" rel="noopener">방문수거 신청하기 →</a>
+            <p class="comparison__cta-note">수거함 찾아다닐 필요 없이, 문 앞에 내놓으면 끝.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--gray">
+      <div class="content-wrapper">
+        <h2 class="bin-list__heading">종로구 헌옷수거함 전체 목록</h2>
+        <p class="bin-list__desc text-muted">종로구에 설치된 헌옷수거함 244곳의 위치 정보입니다.</p>
+        <div class="bin-list">
+          <button class="bin-list__toggle" id="bin-list-toggle" type="button" aria-expanded="false">수거함 주소 목록 보기</button>
+          <div class="bin-list__content" id="bin-list-content" hidden></div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section cta-section">
+      <div class="content-wrapper">
+        <div class="cta-card glass-card">
+          <h2>수거함 찾아다니지 마세요</h2>
+          <p class="text-muted">문 앞에 내놓으면 끝. 종로구에서 헌옷훈남이 직접 수거합니다.</p>
+          <a href="https://hohn.kr/?utm_source=bin_map&utm_medium=organic&utm_campaign=map_page&utm_content=jongno" class="btn" target="_blank" rel="noopener">방문수거 신청하기 →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="content-wrapper">
+      <p>유어스업 | 사업자등록번호 566-81-02981</p>
+    </div>
+  </footer>
+
+  <div class="sticky-bottom-cta">
+    <a href="https://hohn.kr/?utm_source=bin_map&utm_medium=organic&utm_campaign=map_page&utm_content=jongno" class="btn" target="_blank" rel="noopener">방문수거 신청하기 →</a>
+  </div>
+
+  <script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=d4bf1d53c865b143c4438afc1f8b8df7"></script>
+  <script>
+    var BINS = [{"address": "서울특별시 종로구 자하문로33길 12 (청운동)", "detail": "", "lat": 37.58624225, "lng": 126.9692556, "manager": ""}, {"address": "서울특별시 종로구 자하문로33길 22-2 (청운동)", "detail": "", "lat": 37.58634584, "lng": 126.968811, "manager": ""}, {"address": "서울특별시 종로구 자하문로33길 90 (청운동)", "detail": "", "lat": 37.58575065, "lng": 126.966221, "manager": ""}, {"address": "서울특별시 종로구 자하문로33다길 47-4 (청운동)", "detail": "", "lat": 37.5867401, "lng": 126.9670895, "manager": ""}, {"address": "서울특별시 종로구 자하문로12길 33 (창성동)", "detail": "", "lat": 37.58443834, "lng": 126.9705335, "manager": ""}, {"address": "서울특별시 종로구 자하문로26길 1 (청운동)", "detail": "", "lat": 37.58072301, "lng": 126.9720575, "manager": ""}, {"address": "서울특별시 종로구 자하문로24길 24 (효자동)", "detail": "", "lat": 37.58285481, "lng": 126.9711256, "manager": ""}, {"address": "서울특별시 종로구 자하문로30길 14 (청운동)", "detail": "", "lat": 37.57565681, "lng": 126.9620369, "manager": ""}, {"address": "서울특별시 종로구 자하문로 131-20 (청운동)", "detail": "", "lat": 37.5880935, "lng": 126.9683746, "manager": ""}, {"address": "서울특별시 종로구 자하문로21길 9 (신교동)", "detail": "", "lat": 37.57606214, "lng": 126.9625111, "manager": ""}, {"address": "서울특별시 종로구 필운대로 110-1 (신교동)", "detail": "", "lat": 37.5748426, "lng": 126.9623746, "manager": ""}, {"address": "서울특별시 종로구 필운대로 93 (신교동)", "detail": "", "lat": 37.5841596, "lng": 126.967603, "manager": ""}, {"address": "서울특별시 종로구 필운대로 69 (옥인동)", "detail": "", "lat": 37.57571911, "lng": 126.9624605, "manager": ""}, {"address": "서울특별시 종로구 필운대로9길 3 (옥인동)", "detail": "", "lat": 37.572234, "lng": 126.9648764, "manager": ""}, {"address": "서울특별시 종로구 자하문로17길 36 (옥인동)", "detail": "", "lat": 37.57258331, "lng": 126.9651742, "manager": ""}, {"address": "서울특별시 종로구 옥인5길 7 (옥인동)", "detail": "", "lat": 37.57190916, "lng": 126.9650946, "manager": ""}, {"address": "서울특별시 종로구 옥인3길 10 (누상동)", "detail": "", "lat": 37.57810462, "lng": 126.9690959, "manager": ""}, {"address": "서울특별시 종로구 옥인3길 18-7 (누상동, 정암빌라)", "detail": "", "lat": 37.5809068, "lng": 126.9656909, "manager": ""}, {"address": "서울특별시 종로구 옥인6길 41 (누상동)", "detail": "", "lat": 37.5728231, "lng": 126.9649815, "manager": ""}, {"address": "서울특별시 종로구 옥인6길 19 (누상동)", "detail": "", "lat": 37.57606858, "lng": 126.9688539, "manager": ""}, {"address": "서울특별시 종로구 옥인6길 15 (누상동)", "detail": "", "lat": 37.57338869, "lng": 126.9672887, "manager": ""}, {"address": "서울특별시 종로구 옥인6가길 22 (누상동, 우리빌)", "detail": "", "lat": 37.57247474, "lng": 126.9708001, "manager": ""}, {"address": "서울특별시 종로구 통일로16길 5 (무악동)", "detail": "", "lat": 37.57459318, "lng": 126.9661773, "manager": ""}, {"address": "서울특별시 종로구 사직로1가길 16 (행촌동)", "detail": "", "lat": 37.57373707, "lng": 126.9665368, "manager": ""}, {"address": "서울특별시 종로구 통일로12길 10-8 (행촌동)", "detail": "", "lat": 37.58539703, "lng": 126.9706688, "manager": ""}, {"address": "서울특별시 종로구 인왕산로1길 66 (행촌동)", "detail": "", "lat": 37.58614864, "lng": 126.9669304, "manager": ""}, {"address": "서울특별시 종로구 사직로1라길 42 (행촌동)", "detail": "", "lat": 37.57439149, "lng": 126.9657034, "manager": ""}, {"address": "서울특별시 종로구 사직로1길 58-9 (행촌동)", "detail": "", "lat": 37.58307814, "lng": 126.9695836, "manager": ""}, {"address": "서울특별시 종로구 통일로12길 76 (행촌동)", "detail": "", "lat": 37.57782208, "lng": 126.9671357, "manager": ""}, {"address": "서울특별시 종로구 자하문로33길 57 (청운동)", "detail": "", "lat": 37.5864746, "lng": 126.966622, "manager": ""}, {"address": "서울특별시 종로구 사직로1길 12-3 (행촌동, 대성빌라2차)", "detail": "", "lat": 37.58378713, "lng": 126.9695692, "manager": ""}, {"address": "서울특별시 종로구 송월1길 44-38 (행촌동, 옥영주택)", "detail": "", "lat": 37.58386085, "lng": 126.968947, "manager": ""}, {"address": "서울특별시 종로구 송월1길 54 (행촌동)", "detail": "", "lat": 37.58210348, "lng": 126.9676932, "manager": ""}, {"address": "서울특별시 종로구 송월1길 46 (홍파동, 송현빌라)", "detail": "", "lat": 37.58217343, "lng": 126.9674831, "manager": ""}, {"address": "서울특별시 종로구 송월1길 71 (행촌동, 정우빌라)", "detail": "", "lat": 37.57959468, "lng": 126.9878297, "manager": ""}, {"address": "서울특별시 종로구 필운대로 23 (누하동)", "detail": "", "lat": 37.58145441, "lng": 126.9686866, "manager": ""}, {"address": "서울특별시 종로구 사직로9길 1 (사직동)", "detail": "", "lat": 37.57423187, "lng": 126.9648865, "manager": ""}, {"address": "서울특별시 종로구 경희궁길 28 (신문로2가)", "detail": "", "lat": 37.58262119, "lng": 126.9648351, "manager": ""}, {"address": "서울특별시 종로구 경희궁3가길 2 (사직동)", "detail": "", "lat": 37.58079951, "lng": 126.9662237, "manager": ""}, {"address": "서울특별시 종로구 경희궁3나길 2 (사직동)", "detail": "", "lat": 37.5738086, "lng": 126.967053, "manager": ""}, {"address": "서울특별시 종로구 사직로7길 3 (사직동, 초계빌라)", "detail": "", "lat": 37.58016659, "lng": 126.9851863, "manager": ""}, {"address": "서울특별시 종로구 사직로7길 3-14 (사직동)", "detail": "", "lat": 37.58112153, "lng": 126.9646707, "manager": ""}, {"address": "서울특별시 종로구 필운대로1길 41 (필운동, 차남주씨다세대주택)", "detail": "", "lat": 37.58142267, "lng": 126.9647723, "manager": ""}, {"address": "서울특별시 종로구 북촌로6길 1 (가회동)", "detail": "", "lat": 37.58130984, "lng": 126.965303, "manager": ""}, {"address": "서울특별시 종로구 창덕궁1가길 7 (계동, 현대아이빌라)", "detail": "", "lat": 37.57584966, "lng": 126.9571365, "manager": ""}, {"address": "서울특별시 종로구 사직로5길 36 (사직동, 사직궁빌라맨션)", "detail": "", "lat": 37.57335578, "lng": 126.9638329, "manager": ""}, {"address": "서울특별시 종로구 창덕궁3길 12 (원서동, 경미빌라)", "detail": "", "lat": 37.58377597, "lng": 126.9807982, "manager": ""}, {"address": "서울특별시 종로구 창덕궁3길 20 (원서동, 조은빌라)", "detail": "", "lat": 37.58192582, "lng": 126.9887562, "manager": ""}, {"address": "서울특별시 종로구 북촌로 141 (삼청동)", "detail": "", "lat": 37.5871888, "lng": 126.9826758, "manager": ""}, {"address": "서울특별시 종로구 창덕궁3길 38 (원서동, 이안하우스)", "detail": "", "lat": 37.58333658, "lng": 126.9876778, "manager": ""}, {"address": "서울특별시 종로구 창덕궁길 127 (원서동)", "detail": "", "lat": 37.58150137, "lng": 126.9888552, "manager": ""}, {"address": "서울특별시 종로구 창덕궁길 135 (원서동)", "detail": "", "lat": 37.5824, "lng": 126.9886538, "manager": ""}, {"address": "서울특별시 종로구 창덕궁7길 5 (원서동)", "detail": "", "lat": 37.58323013, "lng": 126.9864727, "manager": ""}, {"address": "서울특별시 종로구 창덕궁길 172-2 (가회동)", "detail": "", "lat": 37.58085412, "lng": 126.986453, "manager": ""}, {"address": "서울특별시 종로구 북촌로8길 24 (계동)", "detail": "", "lat": 37.58383083, "lng": 126.9824375, "manager": ""}, {"address": "서울특별시 종로구 북촌로5나길 114 (삼청동)", "detail": "", "lat": 37.57992585, "lng": 126.9819402, "manager": ""}, {"address": "서울특별시 종로구 북촌로5나길 74 (삼청동)", "detail": "", "lat": 37.58532155, "lng": 126.9832809, "manager": ""}, {"address": "서울특별시 종로구 북촌로11나길 26 (삼청동)", "detail": "", "lat": 37.58221902, "lng": 126.9822744, "manager": ""}, {"address": "서울특별시 종로구 북촌로5길 56 (소격동)", "detail": "", "lat": 37.5828853, "lng": 126.9888747, "manager": ""}, {"address": "서울특별시 종로구 삼청로5길 30 (팔판동)", "detail": "", "lat": 37.61392194, "lng": 126.9806668, "manager": ""}, {"address": "서울특별시 종로구 평창40길 55 (평창동)", "detail": "", "lat": 37.61219379, "lng": 126.9783113, "manager": ""}, {"address": "서울특별시 종로구 평창길 342 (평창동)", "detail": "", "lat": 37.61498754, "lng": 126.9776017, "manager": ""}, {"address": "서울특별시 종로구 평창40길 100 (평창동)", "detail": "", "lat": 37.58303769, "lng": 126.9802179, "manager": ""}, {"address": "서울특별시 종로구 평창32길 17 (평창동)", "detail": "", "lat": 37.61279736, "lng": 126.9763941, "manager": ""}, {"address": "서울특별시 종로구 평창31길 24 (평창동)", "detail": "", "lat": 37.61129317, "lng": 126.9764537, "manager": ""}, {"address": "서울특별시 종로구 평창30길 11 (평창동)", "detail": "", "lat": 37.61080477, "lng": 126.9748294, "manager": ""}, {"address": "서울특별시 종로구 평창길 283 (평창동)", "detail": "", "lat": 37.6150836, "lng": 126.9758816, "manager": ""}, {"address": "서울특별시 종로구 평창7길 32 (평창동)", "detail": "", "lat": 37.61715125, "lng": 126.9770884, "manager": ""}, {"address": "서울특별시 종로구 평창7길 46 (평창동)", "detail": "", "lat": 37.61454596, "lng": 126.9744681, "manager": ""}, {"address": "서울특별시 종로구 평창길 268 (평창동)", "detail": "", "lat": 37.61651656, "lng": 126.9760121, "manager": ""}, {"address": "서울특별시 종로구 평창30길 66-1 (평창동)", "detail": "", "lat": 37.61328792, "lng": 126.9721584, "manager": ""}, {"address": "서울특별시 종로구 평창31길 24 (평창동)", "detail": "", "lat": 37.61473822, "lng": 126.9712998, "manager": ""}, {"address": "서울특별시 종로구 평창6길 22 (평창동)", "detail": "", "lat": 37.61251775, "lng": 126.9695543, "manager": ""}, {"address": "서울특별시 종로구 평창길 213 (평창동)", "detail": "", "lat": 37.61093006, "lng": 126.9700364, "manager": ""}, {"address": "서울특별시 종로구 평창20길 49 (평창동)", "detail": "", "lat": 37.61095991, "lng": 126.9680878, "manager": ""}, {"address": "서울특별시 종로구 평창21길 62 (평창동)", "detail": "", "lat": 37.60828424, "lng": 126.9715949, "manager": ""}, {"address": "서울특별시 종로구 평창21길 4 (평창동)", "detail": "", "lat": 37.61009645, "lng": 126.9706999, "manager": ""}, {"address": "서울특별시 종로구 평창20길 11 (평창동, 해든숲빌라)", "detail": "", "lat": 37.60713759, "lng": 126.9725165, "manager": ""}, {"address": "서울특별시 종로구 평창문화로 102-25 (평창동, 블루스케이프평창38)", "detail": "", "lat": 37.60853783, "lng": 126.9750289, "manager": ""}, {"address": "서울특별시 종로구 평창24길 12 (평창동)", "detail": "", "lat": 37.60799812, "lng": 126.9710112, "manager": ""}, {"address": "서울특별시 종로구 평창24길 25 (평창동, 거목빌라)", "detail": "", "lat": 37.60931659, "lng": 126.9765232, "manager": ""}, {"address": "서울특별시 종로구 평창21길 9-34 (평창동)", "detail": "", "lat": 37.60313778, "lng": 126.9677311, "manager": ""}, {"address": "서울특별시 종로구 평창문화로 81-6 (평창동, 노블레스빌)", "detail": "", "lat": 37.60711798, "lng": 126.9686794, "manager": ""}, {"address": "서울특별시 종로구 평창12길 8-3 (평창동, 삼경하이빌)", "detail": "", "lat": 37.60652845, "lng": 126.9676307, "manager": ""}, {"address": "서울특별시 종로구 평창12길 8-16 (평창동)", "detail": "", "lat": 37.60395513, "lng": 126.9663254, "manager": ""}, {"address": "서울특별시 종로구 평창문화로 12-4 (신영동)", "detail": "", "lat": 37.60734253, "lng": 126.97016, "manager": ""}, {"address": "서울특별시 종로구 평창8길 30-2 (평창동)", "detail": "", "lat": 37.60379362, "lng": 126.9634473, "manager": ""}, {"address": "서울특별시 종로구 평창8길 14 (평창동)", "detail": "", "lat": 37.61357681, "lng": 126.9660767, "manager": ""}, {"address": "서울특별시 종로구 평창10길 7-2 (평창동)", "detail": "", "lat": 37.60656833, "lng": 126.9671947, "manager": ""}, {"address": "서울특별시 종로구 평창12길 11 (평창동)", "detail": "", "lat": 37.60827661, "lng": 126.9662408, "manager": ""}, {"address": "서울특별시 종로구 평창길 166 (평창동)", "detail": "", "lat": 37.61292777, "lng": 126.9671339, "manager": ""}, {"address": "서울특별시 종로구 평창길 140 (평창동)", "detail": "", "lat": 37.60507604, "lng": 126.9675742, "manager": ""}, {"address": "서울특별시 종로구 평창11길 87 (평창동)", "detail": "", "lat": 37.61408018, "lng": 126.9679522, "manager": ""}, {"address": "서울특별시 종로구 평창14길 2 (평창동, 신한빌라)", "detail": "", "lat": 37.61105406, "lng": 126.9640058, "manager": ""}, {"address": "서울특별시 종로구 평창11길 28 (평창동, 아름마을)", "detail": "", "lat": 37.61013278, "lng": 126.9639417, "manager": ""}, {"address": "서울특별시 종로구 평창길 43-1 (구기동)", "detail": "", "lat": 37.60975106, "lng": 126.9631609, "manager": ""}, {"address": "서울특별시 종로구 평창길 83 (평창동)", "detail": "", "lat": 37.60770192, "lng": 126.9661018, "manager": ""}, {"address": "서울특별시 종로구 평창길 96 (평창동)", "detail": "", "lat": 37.60749673, "lng": 126.9613077, "manager": ""}, {"address": "서울특별시 종로구 평창4길 21-2 (평창동)", "detail": "", "lat": 37.6097398, "lng": 126.9631575, "manager": ""}, {"address": "서울특별시 종로구 평창1길 8 (평창동)", "detail": "", "lat": 37.60578371, "lng": 126.964552, "manager": ""}, {"address": "서울특별시 종로구 평창길 12 (평창동, 파인하우스)", "detail": "", "lat": 37.60623898, "lng": 126.9611208, "manager": ""}, {"address": "서울특별시 종로구 진흥로 477-5 (신영동)", "detail": "", "lat": 37.60737971, "lng": 126.9597532, "manager": ""}, {"address": "서울특별시 종로구 진흥로25길 6 (구기동, 상신맨션)", "detail": "", "lat": 37.61596155, "lng": 126.9545549, "manager": ""}, {"address": "서울특별시 종로구 비봉길 2-6 (구기동)", "detail": "", "lat": 37.60889303, "lng": 126.9569872, "manager": ""}, {"address": "서울특별시 종로구 비봉길 88 (구기동)", "detail": "", "lat": 37.61367399, "lng": 126.9544616, "manager": ""}, {"address": "서울특별시 종로구 비봉5길 15 (구기동)", "detail": "", "lat": 37.6106068, "lng": 126.9574689, "manager": ""}, {"address": "서울특별시 종로구 비봉2길 14 (구기동, 효창마운틴빌)", "detail": "", "lat": 37.60805267, "lng": 126.9569704, "manager": ""}, {"address": "서울특별시 종로구 비봉길 7 (구기동, 마운틴 뷰)", "detail": "", "lat": 37.60676978, "lng": 126.9575349, "manager": ""}, {"address": "서울특별시 종로구 진흥로 436 (구기동)", "detail": "", "lat": 37.60713326, "lng": 126.9578596, "manager": ""}, {"address": "서울특별시 종로구 진흥로22나길 14 (구기동)", "detail": "", "lat": 37.6056475, "lng": 126.9575113, "manager": ""}, {"address": "서울특별시 종로구 홍지문길 83 (구기동, 모던빌)", "detail": "", "lat": 37.60509399, "lng": 126.9586897, "manager": ""}, {"address": "서울특별시 종로구 진흥로22가길 36 (구기동)", "detail": "", "lat": 37.60648103, "lng": 126.9596326, "manager": ""}, {"address": "서울특별시 종로구 진흥로22가길 23 (구기동, 구기씨제이빌리지)", "detail": "", "lat": 37.60469293, "lng": 126.9604657, "manager": ""}, {"address": "서울특별시 종로구 진흥로 466 (구기동, 466가)", "detail": "", "lat": 37.6053532, "lng": 126.9591932, "manager": ""}, {"address": "서울특별시 종로구 세검정로7길 64 (신영동)", "detail": "", "lat": 37.60197263, "lng": 126.9590436, "manager": ""}, {"address": "서울특별시 종로구 세검정로7가길 17 (신영동)", "detail": "", "lat": 37.60237091, "lng": 126.9602349, "manager": ""}, {"address": "서울특별시 종로구 신영동 206", "detail": "", "lat": 37.60262269, "lng": 126.960613, "manager": ""}, {"address": "서울특별시 종로구 세검정로7길 19 (신영동)", "detail": "", "lat": 37.59760032, "lng": 126.962054, "manager": ""}, {"address": "서울특별시 종로구 자하문로41길 6 (부암동, 현대빌라)", "detail": "", "lat": 37.59300958, "lng": 126.9631804, "manager": ""}, {"address": "서울특별시 종로구 창의문로11길 9 (부암동)", "detail": "", "lat": 37.5938495, "lng": 126.96293, "manager": ""}, {"address": "서울특별시 종로구 창의문로 149-7 (부암동)", "detail": "", "lat": 37.59286304, "lng": 126.9608226, "manager": ""}, {"address": "서울특별시 종로구 창의문로9가길 11 (부암동)", "detail": "", "lat": 37.59151747, "lng": 126.9623907, "manager": ""}, {"address": "서울특별시 종로구 창의문로5가길 10-7 (부암동)", "detail": "", "lat": 37.59108591, "lng": 126.9641818, "manager": ""}, {"address": "서울특별시 종로구 창의문로5길 34 (부암동)", "detail": "", "lat": 37.59418648, "lng": 126.9678952, "manager": ""}, {"address": "서울특별시 종로구 창의문로5나길 2 (부암동)", "detail": "", "lat": 37.58979303, "lng": 126.9637363, "manager": ""}, {"address": "서울특별시 종로구 백석동길 61 (부암동)", "detail": "", "lat": 37.59500706, "lng": 126.9642813, "manager": ""}, {"address": "서울특별시 종로구 자하문로38길 41 (부암동)", "detail": "", "lat": 37.59407038, "lng": 126.9654745, "manager": ""}, {"address": "서울특별시 종로구 자하문로40가길 9 (부암동, 피닉스파크빌)", "detail": "", "lat": 37.59524367, "lng": 126.9652162, "manager": ""}, {"address": "서울특별시 종로구 자하문로40길 33 (부암동)", "detail": "", "lat": 37.59467225, "lng": 126.9658004, "manager": ""}, {"address": "서울특별시 종로구 자하문로40길 49 (부암동)", "detail": "", "lat": 37.59370788, "lng": 126.9641587, "manager": ""}, {"address": "서울특별시 종로구 창의문로10길 17 (부암동)", "detail": "", "lat": 37.59717571, "lng": 126.9656979, "manager": ""}, {"address": "서울특별시 종로구 백석동길 267 (부암동)", "detail": "", "lat": 37.59752701, "lng": 126.9644904, "manager": ""}, {"address": "서울특별시 종로구 백석동길 286-20 (부암동, 부암빌라)", "detail": "", "lat": 37.60365065, "lng": 126.9578126, "manager": ""}, {"address": "서울특별시 종로구 백석동길 292 (부암동)", "detail": "", "lat": 37.6029052, "lng": 126.9578869, "manager": ""}, {"address": "서울특별시 종로구 홍지문길 56 (홍지동, 완성빌라)", "detail": "", "lat": 37.59795469, "lng": 126.9647244, "manager": ""}, {"address": "서울특별시 종로구 홍지문길 48 (홍지동, 정은맨션)", "detail": "", "lat": 37.6090362, "lng": 126.9562703, "manager": ""}, {"address": "서울특별시 종로구 홍지문길 36 (홍지동, 경진주택)", "detail": "", "lat": 37.60179503, "lng": 126.9579881, "manager": ""}, {"address": "서울특별시 종로구 홍지문길 23 (홍지동)", "detail": "", "lat": 37.60158658, "lng": 126.9568555, "manager": ""}, {"address": "서울특별시 종로구 자하문로 312-7 (홍지동)", "detail": "", "lat": 37.60055366, "lng": 126.9598321, "manager": ""}, {"address": "서울특별시 종로구 세검정로6길 10 (신영동)", "detail": "", "lat": 37.60016244, "lng": 126.9587582, "manager": ""}, {"address": "서울특별시 종로구 세검정로6길 38 (신영동)", "detail": "", "lat": 37.6000434, "lng": 126.9610924, "manager": ""}, {"address": "서울특별시 종로구 세검정로6다길 1 (신영동)", "detail": "", "lat": 37.60178731, "lng": 126.9617675, "manager": ""}, {"address": "서울특별시 종로구 성균관로16길 43 (명륜1가)", "detail": "", "lat": 37.588008, "lng": 126.9993443, "manager": ""}, {"address": "서울특별시 종로구 혜화로3길 32 (명륜1가)", "detail": "", "lat": 37.58852152, "lng": 126.998382, "manager": ""}, {"address": "서울특별시 종로구 성균관로10길 25 (명륜1가)", "detail": "", "lat": 37.58855979, "lng": 126.9971356, "manager": ""}, {"address": "서울특별시 종로구 성균관로 66 (명륜1가)", "detail": "", "lat": 37.58652789, "lng": 126.9981554, "manager": ""}, {"address": "서울특별시 종로구 성균관로 70 (명륜1가)", "detail": "", "lat": 37.58971288, "lng": 126.9969947, "manager": ""}, {"address": "서울특별시 종로구 성균관로13길 13 (명륜1가)", "detail": "", "lat": 37.58984074, "lng": 126.9975012, "manager": ""}, {"address": "서울특별시 종로구 성균관로17길 29 (명륜1가)", "detail": "", "lat": 37.5904322, "lng": 126.9974301, "manager": ""}, {"address": "서울특별시 종로구 성균관로17길 20 (명륜1가)", "detail": "", "lat": 37.58877621, "lng": 126.9972463, "manager": ""}, {"address": "서울특별시 종로구 성균관로14길 28 (명륜1가, 아마레스휴A)", "detail": "", "lat": 37.58824292, "lng": 126.9975177, "manager": ""}, {"address": "서울특별시 종로구 성균관로 56-1 (명륜1가)", "detail": "", "lat": 37.58769582, "lng": 126.9967912, "manager": ""}, {"address": "서울특별시 종로구 성균관로7길 22-8 (명륜3가)", "detail": "", "lat": 37.58816159, "lng": 126.9955603, "manager": ""}, {"address": "서울특별시 종로구 성균관로7길 39 (명륜3가)", "detail": "", "lat": 37.58728189, "lng": 126.996299, "manager": ""}, {"address": "서울특별시 종로구 명륜1길 9 (명륜3가)", "detail": "", "lat": 37.58828879, "lng": 126.994971, "manager": ""}, {"address": "서울특별시 종로구 명륜7길 1 (명륜3가)", "detail": "", "lat": 37.59044461, "lng": 126.9934105, "manager": ""}, {"address": "서울특별시 종로구 성균관로5길 43 (명륜3가)", "detail": "", "lat": 37.58501017, "lng": 126.9950714, "manager": ""}, {"address": "서울특별시 종로구 성균관로5길 29 (명륜3가)", "detail": "", "lat": 37.57676356, "lng": 127.0066643, "manager": ""}, {"address": "서울특별시 종로구 율곡로19길 33-4 (이화동)", "detail": "", "lat": 37.57752692, "lng": 127.0059547, "manager": ""}, {"address": "서울특별시 종로구 이화장1길 28 (이화동)", "detail": "", "lat": 37.58455447, "lng": 126.9957224, "manager": ""}, {"address": "서울특별시 종로구 이화장2길 23 (이화동)", "detail": "", "lat": 37.57825728, "lng": 127.0056488, "manager": ""}, {"address": "서울특별시 종로구 이화장1가길 16 (이화동)", "detail": "", "lat": 37.57704085, "lng": 127.0057314, "manager": ""}, {"address": "서울특별시 종로구 이화장1길 19-11 (이화동)", "detail": "", "lat": 37.57792628, "lng": 127.0052458, "manager": ""}, {"address": "서울특별시 종로구 동숭1길 26 (동숭동)", "detail": "", "lat": 37.57970779, "lng": 127.0056265, "manager": ""}, {"address": "서울특별시 종로구 동숭3길 7 (동숭동)", "detail": "", "lat": 37.58142234, "lng": 127.0044742, "manager": ""}, {"address": "서울특별시 종로구 동숭3길 38 (동숭동, 마로니에빌라)", "detail": "", "lat": 37.58269525, "lng": 127.0048982, "manager": ""}, {"address": "서울특별시 종로구 동숭4나길 27 (동숭동)", "detail": "", "lat": 37.58319247, "lng": 127.0056712, "manager": ""}, {"address": "서울특별시 종로구 동숭4가길 14 (동숭동)", "detail": "", "lat": 37.58381286, "lng": 127.0044823, "manager": ""}, {"address": "서울특별시 종로구 동숭4길 29 (동숭동)", "detail": "", "lat": 37.58389925, "lng": 127.0049666, "manager": ""}, {"address": "서울특별시 종로구 동숭3길 29 (동숭동)", "detail": "", "lat": 37.58226603, "lng": 127.0045416, "manager": ""}, {"address": "서울특별시 종로구 대학로5길 40 (연건동)", "detail": "", "lat": 37.57897145, "lng": 127.0008439, "manager": ""}, {"address": "서울특별시 종로구 대학로5길 16 (연건동, 청담주택)", "detail": "", "lat": 37.57638299, "lng": 127.0002315, "manager": ""}, {"address": "서울특별시 종로구 율곡로13가길 18-17 (연건동)", "detail": "", "lat": 37.57857303, "lng": 127.0012463, "manager": ""}, {"address": "서울특별시 종로구 율곡로13가길 14 (연건동, 더플레이스)", "detail": "", "lat": 37.58768637, "lng": 127.0026037, "manager": ""}, {"address": "서울특별시 종로구 창경궁로35길 42 (혜화동)", "detail": "", "lat": 37.5882629, "lng": 127.0032224, "manager": ""}, {"address": "서울특별시 종로구 창경궁로35길 56 (혜화동, 상헌빌리지)", "detail": "", "lat": 37.59096539, "lng": 127.0001315, "manager": ""}, {"address": "서울특별시 종로구 창경궁로35길 68 (혜화동)", "detail": "", "lat": 37.58825066, "lng": 127.002775, "manager": ""}, {"address": "서울특별시 종로구 혜화로16길 29 (혜화동)", "detail": "", "lat": 37.57686628, "lng": 127.0001045, "manager": ""}, {"address": "서울특별시 종로구 혜화로6길 59 (혜화동)", "detail": "", "lat": 37.58929088, "lng": 127.0013644, "manager": ""}, {"address": "서울특별시 종로구 혜화로10길 31 (혜화동)", "detail": "", "lat": 37.58863145, "lng": 127.0012266, "manager": ""}, {"address": "서울특별시 종로구 혜화로6길 32 (혜화동)", "detail": "", "lat": 37.5899851, "lng": 127.0008224, "manager": ""}, {"address": "서울특별시 종로구 혜화로6가길 19 (혜화동)", "detail": "", "lat": 37.58810734, "lng": 127.0013869, "manager": ""}, {"address": "서울특별시 종로구 혜화로12길 9 (혜화동)", "detail": "", "lat": 37.58451677, "lng": 127.0053915, "manager": ""}, {"address": "서울특별시 종로구 혜화로14길 19 (혜화동)", "detail": "", "lat": 37.5894646, "lng": 126.9999275, "manager": ""}, {"address": "서울특별시 종로구 동숭4가길 34 (동숭동, 대보빌라)", "detail": "", "lat": 37.59018188, "lng": 127.0005153, "manager": ""}, {"address": "서울특별시 종로구 혜화로10길 18 (혜화동, 대보빌라)", "detail": "", "lat": 37.58845684, "lng": 127.0005147, "manager": ""}, {"address": "서울특별시 종로구 혜화로8길 10 (혜화동)", "detail": "", "lat": 37.58791697, "lng": 127.0003727, "manager": ""}, {"address": "서울특별시 종로구 성균관로6길 44 (명륜2가, 대보빌라6차)", "detail": "", "lat": 37.58515767, "lng": 126.998528, "manager": ""}, {"address": "서울특별시 종로구 창경궁로33길 33 (명륜2가, 수정빌)", "detail": "", "lat": 37.58478079, "lng": 126.9994463, "manager": ""}, {"address": "서울특별시 종로구 창경궁로33길 51 (명륜2가, 벨메종빌라)", "detail": "", "lat": 37.58579494, "lng": 126.9983099, "manager": ""}, {"address": "서울특별시 종로구 성균관로4길 38 (명륜2가)", "detail": "", "lat": 37.58489322, "lng": 126.9980517, "manager": ""}, {"address": "서울특별시 종로구 성균관로4길 11 (명륜2가, 강남빌라)", "detail": "", "lat": 37.58602035, "lng": 126.9976385, "manager": ""}, {"address": "서울특별시 종로구 혜화로3길 55 (명륜2가)", "detail": "", "lat": 37.58596477, "lng": 126.9981971, "manager": ""}, {"address": "서울특별시 종로구 창신5라길 6 (창신동)", "detail": "", "lat": 37.57380237, "lng": 127.012088, "manager": ""}, {"address": "서울특별시 종로구 종로51가길 26 (창신동)", "detail": "", "lat": 37.57331654, "lng": 127.0122657, "manager": ""}, {"address": "서울특별시 종로구 창신5라길 27 (창신동)", "detail": "", "lat": 37.57427583, "lng": 127.0130722, "manager": ""}, {"address": "서울특별시 종로구 종로53길 24 (창신동)", "detail": "", "lat": 37.57350632, "lng": 127.0135611, "manager": ""}, {"address": "서울특별시 종로구 창신9길 4-7 (창신동)", "detail": "", "lat": 37.57364777, "lng": 127.0120173, "manager": ""}, {"address": "서울특별시 종로구 낙산성곽동길 61 (창신동)", "detail": "", "lat": 37.5778615, "lng": 127.008926, "manager": ""}, {"address": "서울특별시 종로구 창신5길 44 (창신동)", "detail": "", "lat": 37.57443939, "lng": 127.0127564, "manager": ""}, {"address": "서울특별시 종로구 창신5길 81-4 (창신동)", "detail": "", "lat": 37.57490668, "lng": 127.014109, "manager": ""}, {"address": "서울특별시 종로구 지봉로7길 7 (창신동)", "detail": "", "lat": 37.57677872, "lng": 127.0090932, "manager": ""}, {"address": "서울특별시 종로구 낙산성곽동길 65 (창신동)", "detail": "", "lat": 37.57826061, "lng": 127.0086927, "manager": ""}, {"address": "서울특별시 종로구 낙산성곽동길 49 (창신동)", "detail": "", "lat": 37.5727216, "lng": 127.0094786, "manager": ""}, {"address": "서울특별시 종로구 낙산성곽길 12-4 (창신동)", "detail": "", "lat": 37.5733969, "lng": 127.0094003, "manager": ""}, {"address": "서울특별시 종로구 낙산성곽1길 29-6 (창신동)", "detail": "", "lat": 37.57507732, "lng": 127.0096875, "manager": ""}, {"address": "서울특별시 종로구 창신4가길 40-10 (창신동)", "detail": "", "lat": 37.57458944, "lng": 127.0095475, "manager": ""}, {"address": "서울특별시 종로구 창신4나길 25 (창신동)", "detail": "", "lat": 37.57379508, "lng": 127.0100559, "manager": ""}, {"address": "서울특별시 종로구 창신4나길 4 (창신동)", "detail": "", "lat": 37.57533563, "lng": 127.0117416, "manager": ""}, {"address": "서울특별시 종로구 창신6길 22 (창신동)", "detail": "", "lat": 37.57718328, "lng": 127.0118942, "manager": ""}, {"address": "서울특별시 종로구 창신11길 67 (창신동)", "detail": "", "lat": 37.5796422, "lng": 127.0097368, "manager": ""}, {"address": "서울특별시 종로구 창신12길 3 (창신동)", "detail": "", "lat": 37.57827703, "lng": 127.0096341, "manager": ""}, {"address": "서울특별시 종로구 창신10길 5-4 (창신동, 흥인빌)", "detail": "", "lat": 37.57717213, "lng": 127.0096584, "manager": ""}, {"address": "서울특별시 종로구 창신길 140-10 (창신동, 엠아이디그린아파트)", "detail": "", "lat": 37.57588636, "lng": 127.0092201, "manager": ""}, {"address": "서울특별시 종로구 창신길 130 (창신동)", "detail": "", "lat": 37.57589521, "lng": 127.0100493, "manager": ""}, {"address": "서울특별시 종로구 창신7길 23-1 (창신동)", "detail": "", "lat": 37.57422193, "lng": 127.0115407, "manager": ""}, {"address": "서울특별시 종로구 창신7길 8 (창신동)", "detail": "", "lat": 37.5768431, "lng": 127.0148261, "manager": ""}, {"address": "서울특별시 종로구 창신5길 19-7 (창신동)", "detail": "", "lat": 37.5775989, "lng": 127.0100349, "manager": ""}, {"address": "서울특별시 종로구 지봉로11길 10 (창신동)", "detail": "", "lat": 37.5770768, "lng": 127.0187398, "manager": ""}, {"address": "서울특별시 종로구 지봉로13길 64-2 (창신동)", "detail": "", "lat": 37.57398782, "lng": 127.017602, "manager": ""}, {"address": "서울특별시 종로구 종로63가길 68 (숭인동)", "detail": "", "lat": 37.57490779, "lng": 127.0166633, "manager": ""}, {"address": "서울특별시 종로구 종로63라길 9 (숭인동)", "detail": "", "lat": 37.57451661, "lng": 127.0182579, "manager": ""}, {"address": "서울특별시 종로구 종로63다길 21 (숭인동)", "detail": "", "lat": 37.57433899, "lng": 127.0166528, "manager": ""}, {"address": "서울특별시 종로구 지봉로12가길 56-1 (숭인동)", "detail": "", "lat": 37.57781036, "lng": 127.0128901, "manager": ""}, {"address": "서울특별시 종로구 종로57길 22 (숭인동)", "detail": "", "lat": 37.57735591, "lng": 127.0164023, "manager": ""}, {"address": "서울특별시 종로구 지봉로12길 25 (숭인동)", "detail": "", "lat": 37.57674669, "lng": 127.0168623, "manager": ""}, {"address": "서울특별시 종로구 지봉로12가길 9 (숭인동)", "detail": "", "lat": 37.57694788, "lng": 127.0162479, "manager": ""}, {"address": "서울특별시 종로구 지봉로12길 12 (숭인동)", "detail": "", "lat": 37.57746126, "lng": 127.0162656, "manager": ""}, {"address": "서울특별시 종로구 지봉로8길 1-32 (숭인동)", "detail": "", "lat": 37.57920929, "lng": 127.0168108, "manager": ""}, {"address": "서울특별시 종로구 지봉로14길 8-24 (숭인동)", "detail": "", "lat": 37.57974412, "lng": 127.0174598, "manager": ""}, {"address": "서울특별시 종로구 지봉로12길 71 (숭인동)", "detail": "", "lat": 37.57595881, "lng": 127.015883, "manager": ""}, {"address": "서울특별시 종로구 동망산길 94 (숭인동)", "detail": "", "lat": 37.57942913, "lng": 127.0155595, "manager": ""}, {"address": "서울특별시 종로구 지봉로 96-2 (숭인동)", "detail": "", "lat": 37.57857381, "lng": 127.0155949, "manager": ""}, {"address": "서울특별시 종로구 지봉로 104 (숭인동)", "detail": "", "lat": 37.57513242, "lng": 127.0215822, "manager": ""}, {"address": "서울특별시 종로구 종로 399 (숭인동)", "detail": "", "lat": 37.57487529, "lng": 127.0199617, "manager": ""}, {"address": "서울특별시 종로구 종로65길 10 (숭인동)", "detail": "", "lat": 37.57653346, "lng": 127.0200716, "manager": ""}, {"address": "서울특별시 종로구 숭인동1길 31 (숭인동, 도시그린빌라)", "detail": "", "lat": 37.57674065, "lng": 127.021301, "manager": ""}, {"address": "서울특별시 종로구 숭인동길 51 (숭인동)", "detail": "", "lat": 37.57723745, "lng": 127.0218762, "manager": ""}, {"address": "서울특별시 종로구 숭인동1길 12 (숭인동)", "detail": "", "lat": 37.57468894, "lng": 127.0152786, "manager": ""}, {"address": "서울특별시 종로구 숭인동1가길 1 (숭인동, 월드페이스)", "detail": "", "lat": 37.57660093, "lng": 127.0207011, "manager": ""}, {"address": "서울특별시 종로구 숭인동1길 19 (숭인동, 월드미르터)", "detail": "", "lat": 37.57855381, "lng": 127.0208386, "manager": ""}, {"address": "서울특별시 종로구 보문로9길 43 (숭인동, 동문빌라가)", "detail": "", "lat": 37.57673835, "lng": 127.0210604, "manager": ""}, {"address": "서울특별시 종로구 숭인동2길 36-4 (숭인동)", "detail": "", "lat": 37.57535117, "lng": 127.0190433, "manager": ""}, {"address": "서울특별시 종로구 종로63가길 26 (숭인동)", "detail": "", "lat": 37.57819294, "lng": 127.01991, "manager": ""}];
+
+    window.onload = function () {
+      // 지도
+      if (typeof kakao !== 'undefined' && kakao.maps) {
+        var map = new kakao.maps.Map(document.getElementById('map'), {
+          center: new kakao.maps.LatLng(37.5735, 126.979),
+          level: 5
+        });
+        map.addControl(new kakao.maps.ZoomControl(), kakao.maps.ControlPosition.RIGHT);
+        var activeIW = null;
+        BINS.forEach(function (b) {
+          var pos = new kakao.maps.LatLng(b.lat, b.lng);
+          var marker = new kakao.maps.Marker({ map: map, position: pos, title: b.address });
+          var iw = new kakao.maps.InfoWindow({
+            content: '<div style="padding:12px 16px;max-width:260px;font-family:Pretendard,sans-serif;line-height:1.5">'
+              + '<p style="margin:0 0 4px;font-size:14px;font-weight:600;color:#111">' + b.address + '</p>'
+              + (b.detail ? '<p style="margin:0;font-size:13px;color:#666">' + b.detail + '</p>' : '')
+              + (b.manager ? '<p style="margin:0;font-size:12px;color:#888">' + b.manager + '</p>' : '')
+              + '</div>',
+            removable: true
+          });
+          kakao.maps.event.addListener(marker, 'click', function () {
+            if (activeIW) activeIW.close();
+            iw.open(map, marker);
+            activeIW = iw;
+          });
+        });
+      }
+
+      // 목록
+      var toggle = document.getElementById('bin-list-toggle');
+      var lc = document.getElementById('bin-list-content');
+      var html = '<ul class="bin-list__items">';
+      BINS.forEach(function (b, i) {
+        html += '<li class="bin-list__item"><span class="bin-list__item-num">' + (i+1) + '</span><span>' + b.address + '</span>';
+        if (b.detail) html += '<span class="bin-list__item-detail">' + b.detail + '</span>';
+        html += '</li>';
+      });
+      html += '</ul>';
+      lc.innerHTML = html;
+
+      toggle.addEventListener('click', function () {
+        var exp = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!exp));
+        lc.hidden = exp;
+        toggle.textContent = exp ? '수거함 주소 목록 보기' : '목록 접기';
+      });
+    };
+  </script>
+
+</body>
+</html>
